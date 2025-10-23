@@ -1,0 +1,14 @@
+{
+    "name": "ouun/gravityformsadvancedpostcreation",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "Philipp Wellmer",
+            "email": "philipp@ouun.io"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "tutv95/wp-package-parser": "^1.0"
+    }
+}
