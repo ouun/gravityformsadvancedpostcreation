@@ -280,7 +280,7 @@ class GF_Advanced_Post_Creation extends GFFeedAddOn {
 
 		add_filter( 'gform_shortcode_apc_posts_list', array( $this->get_posts_list_handler(), 'posts_list_shortcode' ), 10, 3 );
 		add_action( 'delete_post', array( $this->get_posts_list_handler(), 'reset_deleted_posts_entry_ids_cache' ), 10, 2 );
-		add_action( 'wp_enqueue_scripts', [ $this, 'get_shared_data' ] );
+		add_action( 'gform_enqueue_scripts', [ $this, 'get_shared_data' ] );
 		add_action( 'enqueue_block_editor_assets', [ $this, 'get_shared_data' ] );
 
 		require_once plugin_dir_path( __FILE__ ) . 'includes/helpers/class-admin-notifications.php';
