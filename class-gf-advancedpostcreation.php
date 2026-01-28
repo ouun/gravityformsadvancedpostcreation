@@ -401,8 +401,11 @@ class GF_Advanced_Post_Creation extends GFFeedAddOn {
 							return false;
 						}
 
-						if ( function_exists( 'get_current_screen' ) && get_current_screen()->is_block_editor() ) {
-							return true;
+						if ( function_exists( 'get_current_screen' ) ) {
+							$screen = get_current_screen();
+							if ( $screen && $screen->is_block_editor() ) {
+								return true;
+							}
 						}
 
 						// Check for entry_id and edit nonce in URL
@@ -434,7 +437,18 @@ class GF_Advanced_Post_Creation extends GFFeedAddOn {
 
 		$admin_enqueue_condition = array(
 			function () {
-				return is_admin() && function_exists( 'get_current_screen' ) && get_current_screen()->is_block_editor();
+				if ( ! is_admin() ) {
+					return false;
+				}
+
+				if ( function_exists( 'get_current_screen' ) ) {
+					$screen = get_current_screen();
+					if ( $screen && $screen->is_block_editor() ) {
+						return true;
+					}
+				}
+
+				return false;
 			},
 		);
 

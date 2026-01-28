@@ -1,3 +1,6 @@
+### 1.6.1.1
+- Fixed an error caused by the `get_current_screen()` function returning null in certain admin contexts.
+
 ### 1.6.1 | 2025-12-18
 - Fixed a bug that caused JavaScript errors when forms are embedded using non-standard methods.
 
