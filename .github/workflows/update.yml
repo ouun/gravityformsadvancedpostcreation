@@ -20,14 +20,14 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
       
       # Use GravityForms API to find download link for latest
       - name: Get download link from GravityForms API
         id: GravityFormsAPIResponse
-        uses: fjogeleit/http-request-action@master
+        uses: fjogeleit/http-request-action@v2
         with:
           url: 'https://www.gravityhelp.com/wp-content/plugins/gravitymanager/version.php?nocache=1&version=2&key=${{secrets.GRAVITYFORMS_KEY}}'
 
@@ -52,7 +52,7 @@ jobs:
       # Get current tag
       - name: 'Get Previous tag'
         id: previous_version
-        uses: "WyriHaximus/github-action-get-previous-tag@v1"
+        uses: "WyriHaximus/github-action-get-previous-tag@v2"
         
       # Get new version
       - name: 'Get version'
@@ -71,9 +71,8 @@ jobs:
 
       - name: Unzip
         if: ${{ steps.previous_version.outputs.tag != steps.new_version.outputs.new_version }}
-        uses: TonyBogdanov/zip@1.0
-        with:
-            args: unzip -qq ./package.zip -d .
+        shell: bash
+        run: unzip -qq ./package.zip -d .
       
       # You may not need this step depending on the contents of the zip
       - name: Move
