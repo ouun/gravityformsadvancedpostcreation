@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the Gravity Forms Advanced Post Creation Add-On plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Gravity Forms Advanced Post Creation Add-On 1.6.1.1\n"
+"Project-Id-Version: Gravity Forms Advanced Post Creation Add-On 1.6.1.2\n"
 "Report-Msgid-Bugs-To: https://gravityforms.com/support\n"
 "Last-Translator: Gravity Forms <support@gravityforms.com>\n"
 "Language-Team: Gravity Forms <support@gravityforms.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-01-27T15:58:40+00:00\n"
+"POT-Creation-Date: 2026-07-31T14:48:16+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: gravityformsadvancedpostcreation\n"
@@ -39,453 +39,462 @@ msgstr ""
 msgid "Select a User"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:571
+#: class-gf-advancedpostcreation.php:545
 msgid "Post Created"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:572
+#: class-gf-advancedpostcreation.php:546
 msgid "Post Edited"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:596
+#: class-gf-advancedpostcreation.php:570
 msgid "Feed Name"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:602
-#: class-gf-advancedpostcreation.php:861
-#: class-gf-advancedpostcreation.php:2061
+#: class-gf-advancedpostcreation.php:576
+#: class-gf-advancedpostcreation.php:836
+#: class-gf-advancedpostcreation.php:2052
 msgid "Name"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:603
+#: class-gf-advancedpostcreation.php:577
 msgid "Enter a feed name to uniquely identify this setup."
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:608
+#: class-gf-advancedpostcreation.php:582
 msgid "Action"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:623
-#: class-gf-advancedpostcreation.php:628
+#: class-gf-advancedpostcreation.php:597
+#: class-gf-advancedpostcreation.php:602
 msgid "Conditional Logic"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:624
+#: class-gf-advancedpostcreation.php:598
 msgid "Enable"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:625
+#: class-gf-advancedpostcreation.php:599
 msgid "Create if"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:629
-msgid "When conditional logic is enabled, form submissions will only be created when the condition is met. When disabled, all form submissions will be created."
+#: class-gf-advancedpostcreation.php:603
+msgid "When conditional logic is enabled, posts will only be created when the condition is met. When disabled, all form submissions will create posts."
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:642
+#: class-gf-advancedpostcreation.php:616
 msgid "Post Creation Settings"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:646
+#: class-gf-advancedpostcreation.php:620
 msgid "Post Editing Settings"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:683
+#: class-gf-advancedpostcreation.php:658
 msgid "Entry Date"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:687
+#: class-gf-advancedpostcreation.php:662
 msgid "Date & Time Fields"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:691
+#: class-gf-advancedpostcreation.php:666
 msgid "Custom Date & Time"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:705
+#: class-gf-advancedpostcreation.php:680
 msgid "Post Settings"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:709
+#: class-gf-advancedpostcreation.php:684
 msgid "Visibility"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:717
+#: class-gf-advancedpostcreation.php:692
 msgid "Public"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:721
+#: class-gf-advancedpostcreation.php:696
 msgid "Password Protected"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:727
+#: class-gf-advancedpostcreation.php:702
 msgid "Post Visibility"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:728
+#: class-gf-advancedpostcreation.php:703
 msgid "Visibility determines who can read the post."
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:733
+#: class-gf-advancedpostcreation.php:708
 msgid "Password"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:739
+#: class-gf-advancedpostcreation.php:714
 msgid "Post Password"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:740
+#: class-gf-advancedpostcreation.php:715
 msgid "Users will be required to enter the chosen post password to view the post content"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:745
+#: class-gf-advancedpostcreation.php:720
 msgid "Type"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:752
-#: class-gf-advancedpostcreation.php:2062
+#: class-gf-advancedpostcreation.php:727
+#: class-gf-advancedpostcreation.php:2053
 msgid "Post Type"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:753
+#: class-gf-advancedpostcreation.php:728
 msgid "Select one of the defined WordPress post types for the post."
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:758
-#: class-gf-advancedpostcreation.php:2063
-#: class-gf-advancedpostcreation.php:3479
+#: class-gf-advancedpostcreation.php:733
+#: class-gf-advancedpostcreation.php:2054
+#: class-gf-advancedpostcreation.php:3571
 #: includes/blocks/class-gf-block-apc-posts.php:302
 msgid "Status"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:765
+#: class-gf-advancedpostcreation.php:740
 msgid "Post Status"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:766
+#: class-gf-advancedpostcreation.php:741
 msgid "Select the status for the post. If published status is selected and the post date is in the future, it will automatically be changed to scheduled."
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:771
-#: class-gf-advancedpostcreation.php:3480
+#: class-gf-advancedpostcreation.php:746
+#: class-gf-advancedpostcreation.php:3572
 #: includes/blocks/class-gf-block-apc-posts.php:303
 msgid "Date"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:778
+#: class-gf-advancedpostcreation.php:753
 msgid "Post Date"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:779
+#: class-gf-advancedpostcreation.php:754
 msgid "Define the post publish date. Custom date & time can be a specific date and time or a relative time (e.g. \"today\", \"next week\")."
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:784
+#: class-gf-advancedpostcreation.php:759
 msgid "Author"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:791
+#: class-gf-advancedpostcreation.php:766
 msgid "Post Author"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:792
+#: class-gf-advancedpostcreation.php:767
 msgid "Select the user to be assigned to the post."
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:797
+#: class-gf-advancedpostcreation.php:772
 msgid "Discussion"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:801
+#: class-gf-advancedpostcreation.php:776
 msgid "Allow Comments"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:805
+#: class-gf-advancedpostcreation.php:780
 msgid "Allow Trackbacks and Pingbacks"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:813
-#: class-gf-advancedpostcreation.php:833
+#: class-gf-advancedpostcreation.php:788
+#: class-gf-advancedpostcreation.php:808
 msgid "Post Content"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:817
-#: class-gf-advancedpostcreation.php:3478
+#: class-gf-advancedpostcreation.php:792
+#: class-gf-advancedpostcreation.php:3570
 #: includes/blocks/class-gf-block-apc-posts.php:301
 msgid "Title"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:825
+#: class-gf-advancedpostcreation.php:800
 msgid "Content"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:834
+#: class-gf-advancedpostcreation.php:809
 msgid "Define the post's content. File upload field merge tags used within the post content will automatically have their files uploaded to the media library and associated with the post."
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:839
+#: class-gf-advancedpostcreation.php:814
 msgid "Auto-Formatting"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:844
+#: class-gf-advancedpostcreation.php:819
 msgid "Disable auto-formatting"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:847
+#: class-gf-advancedpostcreation.php:822
 msgid "Disable Auto-Formatting"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:848
+#: class-gf-advancedpostcreation.php:823
 msgid "When enabled, auto-formatting will insert paragraph breaks automatically. Disable auto-formatting when using HTML to create the post content."
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:855
-#: class-gf-advancedpostcreation.php:870
+#: class-gf-advancedpostcreation.php:830
+#: class-gf-advancedpostcreation.php:845
 msgid "Custom Fields"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:860
+#: class-gf-advancedpostcreation.php:835
 msgid "Custom Field Name"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:866
+#: class-gf-advancedpostcreation.php:841
 msgid "Custom Field Value"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:871
+#: class-gf-advancedpostcreation.php:846
 msgid "Map form values to post meta using an existing meta key or defining a new one."
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:888
+#: class-gf-advancedpostcreation.php:863
 msgid "Format"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:911
+#: class-gf-advancedpostcreation.php:886
 msgid "Excerpt"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:939
+#: class-gf-advancedpostcreation.php:914
 msgid "Select a File Upload Field"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:949
-#: class-gf-advancedpostcreation.php:955
+#: class-gf-advancedpostcreation.php:924
+#: class-gf-advancedpostcreation.php:930
 msgid "Featured Image"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:956
+#: class-gf-advancedpostcreation.php:931
 msgid "Select a file upload field to use for the post's featured image. Only file upload fields limited to a single file are permitted."
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:970
-#: class-gf-advancedpostcreation.php:978
+#: class-gf-advancedpostcreation.php:945
+#: class-gf-advancedpostcreation.php:953
 msgid "Media Library"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:974
+#: class-gf-advancedpostcreation.php:949
 msgid "Select File Upload Fields"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:979
+#: class-gf-advancedpostcreation.php:954
 msgid "Select file upload fields whose files should be uploaded to the media library and assigned to the post."
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:996
+#: class-gf-advancedpostcreation.php:971
 msgid "Taxonomies"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:1015
+#: class-gf-advancedpostcreation.php:990
+#: class-gf-advancedpostcreation.php:2055
 msgid "Post Editing"
 msgstr ""
 
 #. Translators: 1: opening anchor tag, 2: screen reader text with external link icon and closing anchor tag.
-#: class-gf-advancedpostcreation.php:1019
+#: class-gf-advancedpostcreation.php:994
 msgid "Allow users to edit their posts with the same form that they used to create the post. Use the block \"APC Post List\" to show users a list of their posts. This option is only available if the Post Author setting is set to \"Logged In User\" and the form does not have any payment feeds. %1$sLearn more %2$s"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:1021
+#: class-gf-advancedpostcreation.php:996
 #: includes/helpers/class-admin-notifications.php:80
 msgid "(opens in a new tab)"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:1027
+#: class-gf-advancedpostcreation.php:1002
 msgid "Enable Post Editing"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:1041
+#: class-gf-advancedpostcreation.php:1016
 msgid "Form Page"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:1042
+#: class-gf-advancedpostcreation.php:1017
 msgid "Select a page where this form is embedded.  When a user edits their entry, they will be taken to this page."
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:1061
+#: class-gf-advancedpostcreation.php:1036
 msgid "Editable Fields"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:1062
+#: class-gf-advancedpostcreation.php:1037
 msgid "Select which fields the user can edit"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:1090
+#: class-gf-advancedpostcreation.php:1065
 msgid "Editing is not allowed because this form has an active payment feed."
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:1283
+#: class-gf-advancedpostcreation.php:1258
 msgid "Select an Option"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:1287
+#: class-gf-advancedpostcreation.php:1262
 msgid "Field Value"
 msgstr ""
 
 #. translators: %s is the singular name of the taxonomy.
-#: class-gf-advancedpostcreation.php:1292
+#: class-gf-advancedpostcreation.php:1267
 msgid "Assign %s"
 msgstr ""
 
 #. translators: %s is the singular name of the taxonomy.
 #. translators: %s is the singular name of the taxonomy.
-#: class-gf-advancedpostcreation.php:1307
-#: class-gf-advancedpostcreation.php:1974
+#: class-gf-advancedpostcreation.php:1282
+#: class-gf-advancedpostcreation.php:1965
 msgid "Add New %s"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:1316
+#: class-gf-advancedpostcreation.php:1291
 msgid "Custom Value"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:1405
-#: class-gf-advancedpostcreation.php:1446
+#: class-gf-advancedpostcreation.php:1380
+#: class-gf-advancedpostcreation.php:1421
 msgid "Select All"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:1438
-#: class-gf-advancedpostcreation.php:1446
+#: class-gf-advancedpostcreation.php:1413
+#: class-gf-advancedpostcreation.php:1421
 msgid "Deselect All"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:1471
+#: class-gf-advancedpostcreation.php:1446
 msgid "Please select at least one editable field."
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:1491
+#: class-gf-advancedpostcreation.php:1466
 msgid "Post Editing is currently enabled.  If you change the author to anything other than \"Logged In User\", post editing will be disabled."
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:1572
+#: class-gf-advancedpostcreation.php:1547
 msgid "WordPress Post Types"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:1613
+#: class-gf-advancedpostcreation.php:1588
 msgid "Custom Post Types"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:1659
+#: class-gf-advancedpostcreation.php:1634
 msgctxt "Post format"
 msgid "Standard"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:1765
+#: class-gf-advancedpostcreation.php:1743
 msgid "Select a Custom Field Name"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:1788
+#: class-gf-advancedpostcreation.php:1779
 msgid "Add New Custom Field Name"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:1831
+#: class-gf-advancedpostcreation.php:1822
 msgid "Assign terms to the post using a field value, an existing term or by adding a new term."
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:1930
-#: class-gf-advancedpostcreation.php:1935
+#: class-gf-advancedpostcreation.php:1921
+#: class-gf-advancedpostcreation.php:1926
 msgid "Access denied."
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:2081
-#: class-gf-advancedpostcreation.php:2104
+#: class-gf-advancedpostcreation.php:2073
+#: class-gf-advancedpostcreation.php:2096
 msgid "Not Selected"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:2087
-#: class-gf-advancedpostcreation.php:2110
+#: class-gf-advancedpostcreation.php:2079
+#: class-gf-advancedpostcreation.php:2102
 msgid "Not Available"
 msgstr ""
 
+#: class-gf-advancedpostcreation.php:2119
+msgid "Not Enabled"
+msgstr ""
+
+#: class-gf-advancedpostcreation.php:2122
+msgid "Enabled"
+msgstr ""
+
 #. translators: %d is the post ID.
-#: class-gf-advancedpostcreation.php:2265
+#: class-gf-advancedpostcreation.php:2284
 msgid "Post created: %d."
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:2714
-#: class-gf-advancedpostcreation.php:3475
+#: class-gf-advancedpostcreation.php:2738
+#: class-gf-advancedpostcreation.php:3567
 msgid "Untitled"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:3039
+#: class-gf-advancedpostcreation.php:3101
 msgid "Created Posts"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:3072
+#: class-gf-advancedpostcreation.php:3134
 msgid "View Post"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:3074
+#: class-gf-advancedpostcreation.php:3136
 msgid "Edit Post"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:3436
+#: class-gf-advancedpostcreation.php:3498
 #: includes/blocks/class-gf-block-apc-posts.php:120
 msgid "View"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:3439
+#: class-gf-advancedpostcreation.php:3501
 #: includes/blocks/class-gf-block-apc-posts.php:130
 msgid "Edit"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:3441
+#: class-gf-advancedpostcreation.php:3503
 msgid "Editing not available for"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:3457
+#: class-gf-advancedpostcreation.php:3519
 msgid "No posts found."
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:3476
+#: class-gf-advancedpostcreation.php:3568
 #: includes/blocks/class-gf-block-apc-posts.php:193
 msgid "Published"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:3477
+#: class-gf-advancedpostcreation.php:3569
 #: includes/blocks/class-gf-block-apc-posts.php:193
 msgid "Draft"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:3481
+#: class-gf-advancedpostcreation.php:3573
 #: includes/blocks/class-gf-block-apc-posts.php:304
 msgid "Actions"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:3482
+#: class-gf-advancedpostcreation.php:3574
 msgid "Previous Page"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:3483
+#: class-gf-advancedpostcreation.php:3575
 msgid "Prev"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:3484
+#: class-gf-advancedpostcreation.php:3576
 msgid "Next Page"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:3485
+#: class-gf-advancedpostcreation.php:3577
 msgid "Next"
 msgstr ""
 
-#: class-gf-advancedpostcreation.php:3486
+#: class-gf-advancedpostcreation.php:3578
 msgid "No Editable Posts Found"
 msgstr ""
 
@@ -506,67 +515,67 @@ msgstr ""
 msgid "All forms"
 msgstr ""
 
-#: includes/blocks/config/class-gf-apc-blocks-config.php:82
+#: includes/blocks/config/class-gf-apc-blocks-config.php:85
 msgid "APC Post List"
 msgstr ""
 
-#: includes/blocks/config/class-gf-apc-blocks-config.php:83
+#: includes/blocks/config/class-gf-apc-blocks-config.php:86
 msgid "Header Text"
 msgstr ""
 
-#: includes/blocks/config/class-gf-apc-blocks-config.php:84
+#: includes/blocks/config/class-gf-apc-blocks-config.php:87
 msgid "Form"
 msgstr ""
 
-#: includes/blocks/config/class-gf-apc-blocks-config.php:85
+#: includes/blocks/config/class-gf-apc-blocks-config.php:88
 msgid "Display a list of user created posts."
 msgstr ""
 
-#: includes/blocks/config/class-gf-apc-blocks-config.php:86
+#: includes/blocks/config/class-gf-apc-blocks-config.php:89
 msgid "All Forms"
 msgstr ""
 
-#: includes/blocks/config/class-gf-apc-blocks-config.php:87
+#: includes/blocks/config/class-gf-apc-blocks-config.php:90
 msgid "Posts per page"
 msgstr ""
 
-#: includes/blocks/config/class-gf-apc-blocks-config.php:88
+#: includes/blocks/config/class-gf-apc-blocks-config.php:91
 msgid "Style"
 msgstr ""
 
-#: includes/blocks/config/class-gf-apc-blocks-config.php:89
+#: includes/blocks/config/class-gf-apc-blocks-config.php:92
 msgid "Light"
 msgstr ""
 
-#: includes/blocks/config/class-gf-apc-blocks-config.php:90
+#: includes/blocks/config/class-gf-apc-blocks-config.php:93
 msgid "Dark"
 msgstr ""
 
-#: includes/blocks/config/class-gf-apc-blocks-config.php:91
+#: includes/blocks/config/class-gf-apc-blocks-config.php:94
 msgid "Active Page Button Color"
 msgstr ""
 
-#: includes/blocks/config/class-gf-apc-blocks-config.php:92
+#: includes/blocks/config/class-gf-apc-blocks-config.php:95
 msgid "Transparent Background"
 msgstr ""
 
-#: includes/blocks/config/class-gf-apc-blocks-config.php:93
+#: includes/blocks/config/class-gf-apc-blocks-config.php:96
 msgid "Hide Post Status"
 msgstr ""
 
-#: includes/blocks/config/class-gf-apc-blocks-config.php:94
+#: includes/blocks/config/class-gf-apc-blocks-config.php:97
 msgid "Hide Post Date"
 msgstr ""
 
-#: includes/blocks/config/class-gf-apc-blocks-config.php:95
+#: includes/blocks/config/class-gf-apc-blocks-config.php:98
 msgid "Data Grid Title"
 msgstr ""
 
-#: includes/blocks/config/class-gf-apc-blocks-config.php:96
+#: includes/blocks/config/class-gf-apc-blocks-config.php:99
 msgid "Login Message"
 msgstr ""
 
-#: includes/blocks/config/class-gf-apc-blocks-config.php:97
+#: includes/blocks/config/class-gf-apc-blocks-config.php:100
 msgid "Message to display to users who are not logged in."
 msgstr ""
 
@@ -578,7 +587,7 @@ msgstr ""
 msgid "Post #%d updated."
 msgstr ""
 
-#: includes/class-post-update-handler.php:629
+#: includes/class-post-update-handler.php:609
 msgid "Update Post"
 msgstr ""
 
