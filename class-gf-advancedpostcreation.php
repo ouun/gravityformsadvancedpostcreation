@@ -1726,7 +1726,7 @@ class GF_Advanced_Post_Creation extends GFFeedAddOn {
 	 * Prepare fields for comment meta field mapping.
 	 *
 	 * @since  1.0
-	 * @since  next Added $form, $feed, and $post type parameters with default values for `gform_advancedpostcreation_meta_fields` hook
+	 * @since  1.6.2 Added $form, $feed, and $post type parameters with default values for `gform_advancedpostcreation_meta_fields` hook
 	 * @access public
 	 *
 	 * @param array      $form      The current form object.
@@ -1751,7 +1751,7 @@ class GF_Advanced_Post_Creation extends GFFeedAddOn {
 		/**
 		 * Allow the meta keys that are shown in the Custom Fields in the feed settings to be modified
 		 *
-		 * @since next
+		 * @since 1.6.2
 		 *
 		 * @param array $meta_keys   Default meta keys that were retrieved by GFFormsModel::get_custom_field_names
 		 * @param array $form        Current form object
@@ -2105,7 +2105,7 @@ class GF_Advanced_Post_Creation extends GFFeedAddOn {
 	/**
 	 * Get Post Editing status for feed list table.
 	 *
-	 * @since  next
+	 * @since  1.6.2
 	 * @access public
 	 *
 	 * @param array $feed The current Feed object.
@@ -2993,7 +2993,7 @@ class GF_Advanced_Post_Creation extends GFFeedAddOn {
 	/**
 	 * Saves the post meta to the post revision.
 	 *
-	 * @since next
+	 * @since 1.6.2
 	 *
 	 * @param array $feed    The feed being processed.
 	 * @param array $entry   The entry being processed.
@@ -3526,7 +3526,7 @@ class GF_Advanced_Post_Creation extends GFFeedAddOn {
 	/**
 	 * Enqueues the shared frontend assets only when the current page requires them.
 	 *
-	 * @since next
+	 * @since 1.6.2
 	 */
 	public function maybe_enqueue_frontend_assets() {
 		global $post;

@@ -384,7 +384,7 @@ class Post_Update_Handler {
 	 * Generates a secure URL for editing a form entry.
 	 *
 	 * @since 1.6.0
-	 * @since next Added the $post_id parameter
+	 * @since 1.6.2 Added the $post_id parameter
 	 * @access public
 	 *
 	 * @param int $entry_id The ID of the entry to edit.
@@ -749,7 +749,7 @@ class Post_Update_Handler {
 	/**
 	 * Updates multiple input fields (Checkboxes, Name, Address, etc.) in the entry if their values have changed.
 	 *
-	 * @since next
+	 * @since 1.6.2
 	 * @access private
 	 *
 	 * @param array $entry The entry being updated.
@@ -773,7 +773,7 @@ class Post_Update_Handler {
 	/**
 	 * Refreshes Polls cached results after readonly Poll values are restored.
 	 *
-	 * @since next
+	 * @since 1.6.2
 	 *
 	 * @param array $form The current form object.
 	 */
